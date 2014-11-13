@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADALWebApi", "ADALExamples\ADALWebApi.csproj", "{ECBFF7CC-CE0D-4A27-9DF9-A156426950A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADALClient", "ADALClient\ADALClient.csproj", "{48FEDD01-087D-43B6-B0A9-3685A25E8AA7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F0C58E8-B594-4B30-B3F6-69709BA84DA0} = {1F0C58E8-B594-4B30-B3F6-69709BA84DA0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADALWcf", "ADALWcf\ADALWcf.csproj", "{1F0C58E8-B594-4B30-B3F6-69709BA84DA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECBFF7CC-CE0D-4A27-9DF9-A156426950A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECBFF7CC-CE0D-4A27-9DF9-A156426950A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECBFF7CC-CE0D-4A27-9DF9-A156426950A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECBFF7CC-CE0D-4A27-9DF9-A156426950A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48FEDD01-087D-43B6-B0A9-3685A25E8AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48FEDD01-087D-43B6-B0A9-3685A25E8AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48FEDD01-087D-43B6-B0A9-3685A25E8AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48FEDD01-087D-43B6-B0A9-3685A25E8AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F0C58E8-B594-4B30-B3F6-69709BA84DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F0C58E8-B594-4B30-B3F6-69709BA84DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F0C58E8-B594-4B30-B3F6-69709BA84DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F0C58E8-B594-4B30-B3F6-69709BA84DA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
